@@ -8,4 +8,4 @@ To run the server using Docker, you can build the image with `docker build -t re
 - GET /api/reservations
 - POST /api/reservations
 
-Theres's also a demo app which can be found at https://gitlab.com/meysam-mousavi/reserva
+Theres's also a demo app which can be found at https://github.com/xeronith/reserva
