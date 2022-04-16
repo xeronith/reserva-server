@@ -7,7 +7,7 @@ let model: Model;
 
 const app = express();
 app.use(express.json())
-app.use(express.static('public'))
+app.use(express.static('../public'))
 
 app.get('/api/restaurants', (_request, response) => {
     response.status(200).json(model.restaurants);
